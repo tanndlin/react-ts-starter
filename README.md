@@ -1,4 +1,3 @@
-# Note Taker
+# React-ts-starter
 
-Note Taker is a web app created in React for taking interactive notes in
-Markdown.
+A starter repo for react in typescript with some tooling already configured
