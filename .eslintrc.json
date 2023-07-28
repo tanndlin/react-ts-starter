@@ -54,6 +54,10 @@
                 "avoidEscape": true
             }
         ],
+        "react/prop-types": 0,
+        "react/jsx-key": 0,
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-uses-react": "off",
         "no-unused-vars": "off",
         "@typescript-eslint/no-unused-vars": [
             "warn", // or "error"
@@ -64,7 +68,6 @@
             }
         ],
         "@typescript-eslint/no-non-null-assertion": 0,
-        "react/prop-types": 0,
         "no-console": 1
     },
     "parser": "@typescript-eslint/parser",
