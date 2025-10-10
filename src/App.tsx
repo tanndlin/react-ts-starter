@@ -4,15 +4,13 @@ import HomePage from './pages/HomePage';
 
 function App() {
     return (
-        <div className="w-screen h-screen bg-primary">
+        <div className="flex flex-col w-screen h-screen">
             <Header />
-            <div className="py-4">
-                <BrowserRouter>
-                    <Routes>
-                        <Route path="/" element={<HomePage />} />
-                    </Routes>
-                </BrowserRouter>
-            </div>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<HomePage />} />
+                </Routes>
+            </BrowserRouter>
         </div>
     );
 }
